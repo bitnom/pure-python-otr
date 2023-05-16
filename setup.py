@@ -22,7 +22,7 @@ try:
 
     from setuptools.command.install_lib import install_lib
 
-    args['install_requires']=['PyCryptodome']
+    args['install_requires']=['pycryptodomex']
 except ImportError:
     print('\n*** setuptools not found! Falling back to distutils\n\n')
     from distutils.core import setup

@@ -25,13 +25,6 @@ from Cryptodome.Random import random
 from Cryptodome.Signature import DSS
 from Cryptodome.Util import Counter
 
-try:
-  import Crypto
-except ImportError:
-  import crypto as Crypto
-
-from Crypto import Cipher
-
 from numbers import Number
 
 from potr.compatcrypto import common
